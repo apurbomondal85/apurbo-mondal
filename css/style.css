@@ -318,8 +318,8 @@ button{
     border: none;
     outline: none;
     padding: .8rem 1rem;
-    color: var(--white-color);
-    background-color: var(--dark-color);
+    color: var(--gray-color-color);
+    resize: none;
     font-size: 16px;
 }
 .inner-contact input::placeholder,textarea::placeholder{
