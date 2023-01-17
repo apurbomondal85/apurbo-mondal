@@ -11,20 +11,51 @@
         font-size: 20px;
     }
     /* navbar */
-    
+    .header-scrolled{
+        height: auto;
+    }
+    /* hero-section  */
+    .hero-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /* about-section */
+    .about-img img{
+        width: 80%;
+    }
+    /* portfolio-section */
+    .portfolio-wrapper .card{
+        min-height: 400px;
+    }
 }
 
 @media (max-width: 767px) {
     /* custom css  */
     h1{
-        font-size: 40px;
-        line-height: 48px;
+        font-size: 30px;
+        line-height: 28px;
     }
     h2{
-        font-size: 25px;
+        font-size: 24px;
     }
     p{
         font-size: 13px;
         line-height: 24px;
+    }
+    /* portfolio-section */
+    .portfolio-wrapper .card{
+        min-height: 450px;
+    }
+    /* ---contact-section---- */
+    .contact-section .inner-contact form{
+        padding: 2rem 1rem;
+    }
+
+}
+@media (max-width: 570px) {
+    .main-btn{
+        padding: 8px 17px;
+        font-size: 12px;
     }
 }
