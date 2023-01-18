@@ -54,6 +54,9 @@
 
 }
 @media (max-width: 570px) {
+    h2{
+        font-size: 22px;
+    }
     .main-btn{
         padding: 8px 17px;
         font-size: 12px;
