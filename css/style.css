@@ -35,7 +35,7 @@ a{
     background: var(--primary-color);
 }
 section{
-    padding: 50px 0;
+    padding: 100px 0;
 }
 .main-btn{
     display: inline-block;
@@ -91,7 +91,7 @@ h2{
     position: absolute;
     left: 0;
     bottom: -25%;
-    animation: round 3s infinite;
+    animation: round 5s infinite;
 }
 @keyframes round {
     0%{
@@ -147,6 +147,7 @@ button{
     -webkit-transition: all .2s linear;
     -o-transition: all .2s linear;
     transition: all .2s linear;
+    background: rgba(255, 255, 255, 0.7);
 }
 .navbar .navbar-brand img{
     max-width: 140px;
@@ -188,17 +189,9 @@ button{
 .navbar .nav-link:hover{
     color: var(--dark-color);
 }
-.header-scrolled{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: var(--primary-color);
-    box-shadow: 0 4px 6px 0 rgba(12,0,46,.05);
-}
-.header-scrolled .nav-item .nav-link.active,
-.header-scrolled .nav-item .nav-link:hover{
-    color: var(--primary-color);
+.navbar .nav-link.active,
+.navbar .nav-link:hover{
+    color: var(--dark-color);
 }
 
 /* hero-section */
@@ -311,6 +304,9 @@ button{
     padding: 2rem 3rem;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.contact-section .inner-contact form .form-title{
+    color: var(--primary-color);
 }
 .inner-contact form input,textarea{
     width: 100%;
